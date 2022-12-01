@@ -8,10 +8,6 @@ module.exports = {
         browser: true,
         node: true,
     },
-    rules: {
-        // Things we do that break the ideal style
-        "quotes": "off",
-    },
     settings: {
         react: {
             version: 'detect',
@@ -32,7 +28,6 @@ module.exports = {
         rules: {
             // Things we do that break the ideal style
             "prefer-promise-reject-errors": "off",
-            "quotes": "off",
 
             // We disable this while we're transitioning
             "@typescript-eslint/no-explicit-any": "off",
