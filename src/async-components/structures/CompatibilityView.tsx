@@ -116,7 +116,8 @@ const CompatibilityView: React.FC<IProps> = ({ onAccept }) => {
                             </p>
                             <p>
                                 {_t(
-                                    "Please install <chromeLink>Chrome</chromeLink>, <firefoxLink>Firefox</firefoxLink>, " +
+                                    "Please install <chromeLink>Chrome</chromeLink>, " +
+                                        "<firefoxLink>Firefox</firefoxLink>, " +
                                         "or <safariLink>Safari</safariLink> for the best experience.",
                                     {},
                                     {
@@ -128,7 +129,8 @@ const CompatibilityView: React.FC<IProps> = ({ onAccept }) => {
                             </p>
                             <p>
                                 {_t(
-                                    "You can continue using your current browser, but some or all features may not work " +
+                                    "You can continue using your current browser, " +
+                                        "but some or all features may not work " +
                                         "and the look and feel of the application may be incorrect.",
                                 )}
                             </p>
